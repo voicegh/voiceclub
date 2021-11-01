@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>voiceclub.in</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- preloader start -->
+  <div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+  </div>
+  <!-- preloader end -->
+
+<!-- header -->
+<header class="fixed-top header">
+  <!--top header 
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="callto:+443003030266"><strong>CALL</strong> +44 300 303 0266</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="notice.html">notice</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="research.html">research</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="scholarship.html">SCHOLARSHIP</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">login</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">register</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand" href="index.html"><img src="images/logo1.png" alt="logo"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item @@home">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                COURSES
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="personality.html">Personality Development Courses</a>
+                <a class="dropdown-item" href="tech.html">Technical Courses</a>
+              </div>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="events.html">EVENTS</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="blog.html">BLOG</a>
+            </li>
+            <li class="nav-item @@blog">
+              <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+            <!--
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="gallery.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Gallery
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="teacher.html">Teacher</a>
+                <a class="dropdown-item" href="teacher-single.html">Teacher Single</a>
+                <a class="dropdown-item" href="notice.html">Notice</a>
+                <a class="dropdown-item" href="notice-single.html">Notice Details</a>
+                <a class="dropdown-item" href="research.html">Research</a>
+                <a class="dropdown-item" href="scholarship.html">Scholarship</a>
+                <a class="dropdown-item" href="course-single.html">Course Details</a>
+                <a class="dropdown-item" href="event-single.html">Event Details</a>
+                <a class="dropdown-item" href="blog-single.html">Blog Details</a>
+              </div>
+            </li>-->
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="team.html">OUR TEAM</a>
+            </li>
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="@@page-link">Our Blogs</a></li>
+          <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
+        </ul>
+        <p class="text-lighten">Read mind enlightening blogs on various topics by our mentors.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<!-- blogs -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <!-- blog post -->
+      <article class="col-lg-4 col-sm-6 mb-5">
+        <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/blog/blog_1.jpeg" alt="Post thumb">
+          <div class="card-body">
+            <!-- post meta -->
+            <ul class="list-inline mb-3">
+              <!-- post date -->
+              <li class="list-inline-item mr-3 ml-0">February 05, 2021</li>
+              <!-- author -->
+              <li class="list-inline-item mr-3 ml-0">By Team voiceclub</li>
+            </ul>
+            <a href="blog_1.html">
+              <h4 class="card-title">Where Technology Falls Short</h4>
+            </a>
+            <a href="blog_1.html" class="btn btn-primary btn-sm">read more</a>
+          </div>
+        </div>
+      </article>
+      <!-- blog post -->
+      <article class="col-lg-4 col-sm-6 mb-5">
+        <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/blog/blog_2.jpeg" alt="Post thumb">
+          <div class="card-body">
+            <!-- post meta -->
+            <ul class="list-inline mb-3">
+              <!-- post date -->
+              <li class="list-inline-item mr-3 ml-0">January 15, 2021</li>
+              <!-- author -->
+              <li class="list-inline-item mr-3 ml-0">By Team voiceclub</li>
+            </ul>
+            <a href="blog_2.html">
+              <h4 class="card-title">Is something missing in modern Education</h4>
+            </a>
+            <p class="card-text">“We have controlled machines and uncontrolled men” </p>
+            <a href="blog_2.html" class="btn btn-primary btn-sm">read more</a>
+          </div>
+        </div>
+      </article>
+      <!-- blog post -->
+      <article class="col-lg-4 col-sm-6 mb-5">
+        <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/blog/blog_3.jpeg" alt="Post thumb">
+          <div class="card-body">
+            <!-- post meta -->
+            <ul class="list-inline mb-3">
+              <!-- post date -->
+              <li class="list-inline-item mr-3 ml-0">May 19, 2021</li>
+              <!-- author -->
+              <li class="list-inline-item mr-3 ml-0">By Team voiceclub</li>
+            </ul>
+            <a href="blog_3.html">
+              <h4 class="card-title">Science of Values</h4>
+            </a>
+            <p class="card-text">Learn improtance and science behind the values which help us in today's modern age.</p>
+            <a href="blog_3.html" class="btn btn-primary btn-sm">read more</a>
+          </div>
+        </div>
+      </article>
+      <!-- blog post -->
+      <article class="col-lg-4 col-sm-6 mb-5">
+        <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/blog/blog_4.jpeg" alt="Post thumb">
+          <div class="card-body">
+            <!-- post meta -->
+            <ul class="list-inline mb-3">
+              <!-- post date -->
+              <li class="list-inline-item mr-3 ml-0">July 1, 2021</li>
+              <!-- author -->
+              <li class="list-inline-item mr-3 ml-0">By Team voiceclub</li>
+            </ul>
+            <a href="blog_4.html">
+              <h4 class="card-title">The Unparalled Factory</h4>
+            </a>
+            <p class="card-text">Explore the unparalled factory of nature in the form of answer to the question "Does Nature Work Automatically?"</p>
+            <a href="blog_4.html" class="btn btn-primary btn-sm">read more</a>
+          </div>
+        </div>
+      </article>
+      <!-- blog post -->
+      <article class="col-lg-4 col-sm-6 mb-5">
+        <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/blog/blog_5.jpg" alt="Post thumb">
+          <div class="card-body">
+            <!-- post meta -->
+            <ul class="list-inline mb-3">
+              <!-- post date -->
+              <li class="list-inline-item mr-3 ml-0">March 10, 2021</li>
+              <!-- author -->
+              <li class="list-inline-item mr-3 ml-0">By Team voiceclub</li>
+            </ul>
+            <a href="blog_5.html">
+              <h4 class="card-title">The 99 Club</h4>
+            </a>
+            <p class="card-text">Enter the 99 Club</p>
+            <a href="blog_5.html" class="btn btn-primary btn-sm">read more</a>
+          </div>
+        </div>
+      </article>
+      <!-- blog post -->
+      <article class="col-lg-4 col-sm-6 mb-5">
+        <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/blog/blog_6.jpeg" alt="Post thumb">
+          <div class="card-body">
+            <!-- post meta -->
+            <ul class="list-inline mb-3">
+              <!-- post date -->
+              <li class="list-inline-item mr-3 ml-0">June 23, 2021</li>
+              <!-- author -->
+              <li class="list-inline-item mr-3 ml-0">By Team voiceclub</li>
+            </ul>
+            <a href="blog_6.html">
+              <h4 class="card-title">Inspiring Others</h4>
+            </a>
+            <p class="card-text">Learn how to inspire others with interesting examples.</p>
+            <a href="blog_6.html" class="btn btn-primary btn-sm">read more</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<!-- /blogs -->
+
+
+   <!-- Testimonials -->
+    <section class="section">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <h2 class="section-title">Our Testimonials</h2>
+      </div>
+    <div class="slider-1">
+        <img class="quotes-decoration" src="images/quotes.svg" alt="alternative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Card Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <p class="testimonial-text">“Learning DSA with voiceclub was a great experience for me. Our course Facilitator was very learned. He cleared all our doubts thoroughly. It was a great opportunity for me to learn DSA on such a minimal price, other wise it is very expensive to learn DSA on other platforms.”</p>
+                                    <div class="testimonial-author">Krishnakant Birajdar</div>
+                                    <div class="testimonial-position">Student- Latur</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“I have completed Python course organized by voiceclub. Quality teaching, daily evaluation, coverage of topics, etc. made me confident in Python without any programming background.”</p>
+                                    <div class="testimonial-author">Sneha Chakurkar</div>
+                                    <div class="testimonial-position">B.Tech SGGS Nanded</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“Python was my first programming language which I have learnt from voiceclub. The Teaching faculty is really experienced and working with top MNC like Google. They teach us from scratch to what's going on at industry level.”</p>
+                                    <div class="testimonial-author">Nitin Rasam</div>
+                                    <div class="testimonial-position">Service Engineer- Canon</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“There were expert faculties to guide us. They taught us how to apply engineering knowledge into practical life. voiceclub provided various designing assignments to do, so that we can understand the subject properly.”</p>
+                                    <div class="testimonial-author">Sairaj Deshmukh</div>
+                                    <div class="testimonial-position">NMIET, Pune(MH)</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“My reason for joining the DSA course of voiceclub was my amazing experience in voiceclub's Python course. In this DSA course, we were taught various DSA concepts by top faculties. They also made us ready for interviewby providing interview questions based on DSA. Thanks voiceclub for giving such an opportunity !!”</p>
+                                    <div class="testimonial-author">Gangaprasad S</div>
+                                    <div class="testimonial-position">Student, Nanded</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“I had recently completed DSA course arranged by, voiceclub. Daily tests and an weekly tests helped to revise concepts more easily. There were various projects which helped me to implement the concepts. Thanks voiceclub!!
+”</p>
+                                    <div class="testimonial-author">Rushikesh Girhe</div>
+                                    <div class="testimonial-position">SY Student, SGGS Nanded</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“Generally, if we join any course we get only limited things. In this course, along with Python, voiceclub arranged different motivational and inspiring seminars. I think only voiceclub can give this.”</p>
+                                    <div class="testimonial-author">Nilotpal Mukherjee</div>
+                                    <div class="testimonial-position">Student, West Bengal</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                            </div> <!-- end of swiper-wrapper -->
+        
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+        
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of card slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-1 -->
+  </div>
+</div>
+</section>
+    <!-- end of testimonials -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer 
+<footer>
+  newsletter 
+  <div class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+          <h3 class="text-white">Subscribe Now</h3>
+          <form action="#">
+            <div class="input-wrapper">
+              <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="Enter Your Email...">
+              <button type="submit" value="send" class="btn btn-primary">Join</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <!-- footer content 
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+           logo 
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo1.png" alt="logo"></a>
+          <ul class="list-unstyled">
+            <li class="mb-2">Address : 11/26, Ekta Park Society, Wakdewadi, Shivajinagar, Pune, Maharashtra, India 411005
+Email : admin@voiceclub.in</li>
+            
+            <li class="mb-2">admin@voiceclub.in</li>
+          </ul>
+        </div>
+         company 
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">voiceclub</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="about.html">About Us</a></li>
+            <li class="mb-3"><a class="text-color" href="teacher.html">Our Team</a></li>
+            <li class="mb-3"><a class="text-color" href="contact.html">Contact</a></li>
+            <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        links 
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">LINKS</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="courses.html">Courses</a></li>
+            <li class="mb-3"><a class="text-color" href="event.html">Events</a></li>
+            <li class="mb-3"><a class="text-color" href="gallery.html">Gallary</a></li>
+          </ul>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</footer>
+ /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+<script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+<script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+<script src="js/script.js"></script>
+<script src="js/script2.js"></script>
+
+</body>
+</html>

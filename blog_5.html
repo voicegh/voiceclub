@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>voiceclub.in</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- preloader start -->
+  <div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+  </div>
+  <!-- preloader end -->
+
+<!-- header -->
+<header class="fixed-top header">
+  <!--top header 
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="callto:+443003030266"><strong>CALL</strong> +44 300 303 0266</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="notice.html">notice</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="research.html">research</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="scholarship.html">SCHOLARSHIP</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">login</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">register</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand" href="index.html"><img src="images/logo1.png" alt="logo"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item @@home">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                COURSES
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="personality.html">Personality Development Courses</a>
+                <a class="dropdown-item" href="tech.html">Technical Courses</a>
+              </div>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="events.html">EVENTS</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="blog.html">BLOG</a>
+            </li>
+            <li class="nav-item @@blog">
+              <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+            <!--
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="gallery.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Gallery
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="teacher.html">Teacher</a>
+                <a class="dropdown-item" href="teacher-single.html">Teacher Single</a>
+                <a class="dropdown-item" href="notice.html">Notice</a>
+                <a class="dropdown-item" href="notice-single.html">Notice Details</a>
+                <a class="dropdown-item" href="research.html">Research</a>
+                <a class="dropdown-item" href="scholarship.html">Scholarship</a>
+                <a class="dropdown-item" href="course-single.html">Course Details</a>
+                <a class="dropdown-item" href="event-single.html">Event Details</a>
+                <a class="dropdown-item" href="blog-single.html">Blog Details</a>
+              </div>
+            </li>-->
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="team.html">OUR TEAM</a>
+            </li>
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="blog_5.html">The 99 Club</a></li>
+          <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+
+
+<!-- blog details -->
+<section class="section-sm bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <!--<img src="images/blog/blog_1.jpeg" alt="blog-thumb" class="img-fluid w-100">-->
+      </div>
+      <div class="col-12">
+        <ul class="list-inline">
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">Post:</span></li>
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">March 10, 2021</li>
+          <!--<li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><i class="ti-book mr-2"></i>Read 289</li>
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><i class="ti-share mr-2"></i>289</li>
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><a class="text-light" href="#"><i class="ti-comments mr-2"></i>265</a></li>
+        </ul>-->
+      </div>
+      <!-- border -->
+      <div class="col-12 mt-4">
+        <div class="border-bottom border-primary"></div>
+      </div>
+      <!-- blog contect -->
+      <div class="col-12 mb-5">
+        <h2>The 99 Club</h2>
+        <p>Long  ago, there lived a King. This King should have been content with  his life,  given  all the riches and luxuries he had. However, this was not the case!  The  King   always found himself  wondering why he just never seemed content  with  his life. Sure, he had the attention of everyone  wherever he went,  attended  fancy  dinners  and  parties,  but somehow, he  still felt something was  lacking and he couldn't put his finger on it.
+ </p><p>
+One day, the King had woken up earlier than usual and decided to stroll around his palace. He entered his huge living room and came to a stop when he heard someone   happily singing away...following this singing...he saw that one of the servants was singing and had a very content look on his face. This fascinated the King and he summoned this man to his chambers. The man, his servant, entered the King's chambers as ordered. The King asked why he was so happy. To this the man replied: "Your Majesty, I am nothing but a servant, but I make enough of a living to keep my wife and children happy.  We don’t need too much, a roof over our head and warm food to fill our tummy. My wife and children our inspiration, they are content with whatever! Little I bring home. I am happy because my family is happy."  
+ </p><p>
+Hearing this, the King dismissed the servant and summoned his Personal Assistant to his chambers.  The  King related his personal anguish about his feelings and then related the  story  of the  servant to his Personal Assistant, hoping that somehow, he  will  be able to come up with some reasoning that here was a King who could  have  anything he wished for at a snap of his fingers and  yet was not  contended,  whereas,  his  servant,  having  so  little was  extremely contended.   The Personal Assistant listened attentively and come to a conclusion.  He said "Your Majesty, I   believe that the servant has not been made part of The 99 Club." "The 99 Club? and what exactly  is that?" the King inquired. To which the Assistant replied, "Your  Majesty, t! o truly know what ... The 99 Club is, you will have to do the following... place 99 Gold Coins  in  a bag and leave it at   this servant's doorstep, you will then  understand  what  The 99 Club  is."That very same evening,   the King arranged  for 99 Gold coins to be placed in bag at the  servant's doorstep. Although  he  was slightly hesitant and he thought he should have put 100 Gold  Coins  in the bag, but since his  assistant had advised him to put 99 that  is  what he did.
+ </p><p>
+The servant was just stepping out of his house when he  saw  a  bag at  his doorstep. Wondering about  its contents, he took it into  his  house  and opened the bag. When he  opened the bag he  let out a great  big  shout  of joy...Gold Coins...so many of them. He  could hardly believe  it. He called his wife to show her the coins and they were besidesthemselves. He then took the  bag to a table and emptied it out and began to count  the  coins. Doing  so, he realized that there   were 99 coins and he thought it was an odd number so he counted  again, and again and again only to  come  to the same conclusion...99 Gold Coins.  He began to wonder, what could  have  happened  to  that  last  1  coin?  For  no one would leave 99 coins. He began to search his entire house, looked around his  backyard f! or hours,  not  wanting  to  lose out on that one coin. Finally, exhausted, he decided  that  he  was   going to have to work  harder than ever to make up for that 1 Gold coin to make his entire collection an even 100 Gold  Coins.
+ </p><p>
+He got up the next morning, in an extremely horrible mood,  shouting at the children  and  his wife for his delay, not realizing that he had spent most of  the night  up  conjuring ways of  working hard so that he had enough money  to  buy himself that gold   coin. He went to work as usual  only not in  his  usual best mood, singing happily and whistling all  day. He didn't even  seem to  notice that the King was watching him as he grumpily did his daily   errands. Seeing the man's attitude change so drastically, the King was  puzzled.  He  promptly   summoned his assistant to his   chambers. The King  related his thoughts about the servant and once  again, his assistant listened.  The  King  could not believe that the servant who until yesterday had  been singing  away  and  was  happy and content with his life had taken a sudden change  of   attitude,  even  though  he  should have been happier after receiving  the  gold  coins.
+ </p><p>
+To  this  the assistant replied "Ah but your Majesty, the servant has now officially joined The  99 Club."He explained: "The  99 Club is just a name given to those  people who have everything but yet are never content, therefore they are always working hard and  striving for  that  extra  1 to  round it out to 100! We have so much to be thankful for  and we can  live with very little in our  lives, but the minute we are given something bigger and better, we  want even more!  We are not the  same happy contented person we used to be, we want more and more and  by wanting more and more we  don't realize the price we pay for it. We lose our sleep, our  happiness; we hurt the people around us just as a price to pay for our growing needs and desires.  That is what joining .The 99 Club is all about.
+ </p><p>
+Hearing  this  the  King decided that from  that day onwards, he was going  to  start  appreciating all the little things in life.
+
+
+</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /blog details -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Testimonials -->
+    <section class="section">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <h2 class="section-title">Our Testimonials</h2>
+      </div>
+    <div class="slider-1">
+        <img class="quotes-decoration" src="images/quotes.svg" alt="alternative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Card Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <p class="testimonial-text">“Learning DSA with voiceclub was a great experience for me. Our course Facilitator was very learned. He cleared all our doubts thoroughly. It was a great opportunity for me to learn DSA on such a minimal price, other wise it is very expensive to learn DSA on other platforms.”</p>
+                                    <div class="testimonial-author">Krishnakant Birajdar</div>
+                                    <div class="testimonial-position">Student- Latur</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“I have completed Python course organized by voiceclub. Quality teaching, daily evaluation, coverage of topics, etc. made me confident in Python without any programming background.”</p>
+                                    <div class="testimonial-author">Sneha Chakurkar</div>
+                                    <div class="testimonial-position">B.Tech SGGS Nanded</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“Python was my first programming language which I have learnt from voiceclub. The Teaching faculty is really experienced and working with top MNC like Google. They teach us from scratch to what's going on at industry level.”</p>
+                                    <div class="testimonial-author">Nitin Rasam</div>
+                                    <div class="testimonial-position">Service Engineer- Canon</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“There were expert faculties to guide us. They taught us how to apply engineering knowledge into practical life. voiceclub provided various designing assignments to do, so that we can understand the subject properly.”</p>
+                                    <div class="testimonial-author">Sairaj Deshmukh</div>
+                                    <div class="testimonial-position">NMIET, Pune(MH)</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“My reason for joining the DSA course of voiceclub was my amazing experience in voiceclub's Python course. In this DSA course, we were taught various DSA concepts by top faculties. They also made us ready for interviewby providing interview questions based on DSA. Thanks voiceclub for giving such an opportunity !!”</p>
+                                    <div class="testimonial-author">Gangaprasad S</div>
+                                    <div class="testimonial-position">Student, Nanded</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“I had recently completed DSA course arranged by, voiceclub. Daily tests and an weekly tests helped to revise concepts more easily. There were various projects which helped me to implement the concepts. Thanks voiceclub!!
+”</p>
+                                    <div class="testimonial-author">Rushikesh Girhe</div>
+                                    <div class="testimonial-position">SY Student, SGGS Nanded</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“Generally, if we join any course we get only limited things. In this course, along with Python, voiceclub arranged different motivational and inspiring seminars. I think only voiceclub can give this.”</p>
+                                    <div class="testimonial-author">Nilotpal Mukherjee</div>
+                                    <div class="testimonial-position">Student, West Bengal</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                            </div> <!-- end of swiper-wrapper -->
+        
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+        
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of card slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-1 -->
+  </div>
+</div>
+</section>
+    <!-- end of testimonials -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer 
+<footer>
+  newsletter 
+  <div class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+          <h3 class="text-white">Subscribe Now</h3>
+          <form action="#">
+            <div class="input-wrapper">
+              <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="Enter Your Email...">
+              <button type="submit" value="send" class="btn btn-primary">Join</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <!-- footer content 
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+           logo 
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo1.png" alt="logo"></a>
+          <ul class="list-unstyled">
+            <li class="mb-2">Address : 11/26, Ekta Park Society, Wakdewadi, Shivajinagar, Pune, Maharashtra, India 411005
+Email : admin@voiceclub.in</li>
+            
+            <li class="mb-2">admin@voiceclub.in</li>
+          </ul>
+        </div>
+         company 
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">voiceclub</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="about.html">About Us</a></li>
+            <li class="mb-3"><a class="text-color" href="teacher.html">Our Team</a></li>
+            <li class="mb-3"><a class="text-color" href="contact.html">Contact</a></li>
+            <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        links 
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">LINKS</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="courses.html">Courses</a></li>
+            <li class="mb-3"><a class="text-color" href="event.html">Events</a></li>
+            <li class="mb-3"><a class="text-color" href="gallery.html">Gallary</a></li>
+          </ul>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</footer>
+ /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+<script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+<script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+<script src="js/script.js"></script>
+<script src="js/script2.js"></script>
+
+</body>
+</html>

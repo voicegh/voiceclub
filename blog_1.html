@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>voiceclub.in</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- preloader start -->
+  <div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+  </div>
+  <!-- preloader end -->
+
+<!-- header -->
+<header class="fixed-top header">
+  <!--top header 
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="callto:+443003030266"><strong>CALL</strong> +44 300 303 0266</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="notice.html">notice</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="research.html">research</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="scholarship.html">SCHOLARSHIP</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">login</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">register</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand" href="index.html"><img src="images/logo1.png" alt="logo"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item @@home">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                COURSES
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="personality.html">Personality Development Courses</a>
+                <a class="dropdown-item" href="tech.html">Technical Courses</a>
+              </div>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="events.html">EVENTS</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="blog.html">BLOG</a>
+            </li>
+            <li class="nav-item @@blog">
+              <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+            <!--
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="gallery.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Gallery
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="teacher.html">Teacher</a>
+                <a class="dropdown-item" href="teacher-single.html">Teacher Single</a>
+                <a class="dropdown-item" href="notice.html">Notice</a>
+                <a class="dropdown-item" href="notice-single.html">Notice Details</a>
+                <a class="dropdown-item" href="research.html">Research</a>
+                <a class="dropdown-item" href="scholarship.html">Scholarship</a>
+                <a class="dropdown-item" href="course-single.html">Course Details</a>
+                <a class="dropdown-item" href="event-single.html">Event Details</a>
+                <a class="dropdown-item" href="blog-single.html">Blog Details</a>
+              </div>
+            </li>-->
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="team.html">OUR TEAM</a>
+            </li>
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="blog_1.html">Where Technology Falls Short</a></li>
+          <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+
+
+<!-- blog details -->
+<section class="section-sm bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <!--<img src="images/blog/blog_1.jpeg" alt="blog-thumb" class="img-fluid w-100">-->
+      </div>
+      <div class="col-12">
+        <ul class="list-inline">
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">Post:</span></li>
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">February 05, 2021</li>
+          <!--<li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><i class="ti-book mr-2"></i>Read 289</li>
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><i class="ti-share mr-2"></i>289</li>
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><a class="text-light" href="#"><i class="ti-comments mr-2"></i>265</a></li>
+        </ul>-->
+      </div>
+      <!-- border -->
+      <div class="col-12 mt-4">
+        <div class="border-bottom border-primary"></div>
+      </div>
+      <!-- blog contect -->
+      <div class="col-12 mb-5">
+        <h2>Where Technology Falls Short</h2>
+        <p>We live in the age of technology. We commute by automobiles and
+airplanes and communicate by emails and mobiles. The media and the
+Internet provide us the latest information from all over the world. Movies
+filled with hi-tech special effects entertain us. Air conditioners and room
+heaters keep our life comfortable despite climatic inconveniences….The
+list goes on. Technology has transformed almost every aspect of our lives.
+Of course, a few of us may have concerns about the pollution and
+environmental problems that technology has led to. But overall most
+people feel that technology has benefited us immensely
+Where is technology taking us? <br></p><p>
+The razzle-dazzle of comforts, luxuries and hi-tech gadgets make it appear
+that technology has led to progress in human society. But has the quality
+of life of people in the modern technology-centered society improved?<br>
+● In the past people would leave the doors of their homes open and still be
+fearless. Now moderns lock, bolt, chain and buzzer-alarm their doors and
+are still fearful. Is this progress?<br>
+● Most moderns are proud of their posh houses, fast cars, smooth roads and
+skyscraper offices, but they can’t even sleep without a pill. Can a society be
+considered progressed if it makes its people struggle to get the simple and
+essential pleasure of sleeping, a pleasure that the “primitive” villager gets
+effortlessly?<br>
+● The technological worldview being materialistic gives rise to selfishness,
+competition and exploitation. Most moderns, despite the show of romantic
+love, can’t trust their own spouses – what then to speak of parents and
+children or bosses and colleagues. Do alienated, suspicious people comprise
+a progressive society?<br>
+● Mechanized factories can never offer as much employment as the farms did
+in the past. So a large number of people have to suffer or fear
+unemployment. For subsistence some of the unemployed turn to begging
+and others to crime. And overall the modernized industrial environment is
+so agitating to the mind that self-destructive addictions become the only
+solace for most people. Are unemployment, criminality and addictions
+indicators of progress?<br>
+● Technology provides comforts, but the high-speed high-stress technology-
+centered lifestyle takes away the peace of mind necessary to enjoy the
+comforts. A software engineer has an AC in his office, but still he sweats –
+not due to heat, but due to tension. Thus, technology makes us comfortably
+miserable.<br>
+● Medical technology may have eradicated a few diseases and may offer cures
+to some more. But far more people need medical attention today than in the
+past due to unhealthy congested city living, sedentary lifestyles and polluted
+air, water and food. This is evident from the ever-increasing number of
+clinics, hospitals and medicine shops. Moreover, many of the sophisticated
+medical treatments, unlike the traditional herbal cures, are prohibitively
+expensive.<br>
+● Most moderns can hardly imagine life without television, movies and
+myriad other forms of hi-tech entertainment. And they pity their ancestors
+who did not have all this enjoyment. But people in the past knew how to
+find joy in the simple things of life – like sharing and caring in joint
+families, observing and learning from nature and hearing and chanting the
+names and glories of Supreme lord. Consequently, they did not find life
+boring. On the contrary it is we who have divorced ourselves from simple
+natural pleasures by our infatuation with technology. And so, despite our
+much-touted entertainment, we still find ourselves constantly bored. The
+entertainment industry may use sophisticated technology, but is the
+dependence on entertainment – and the serious inner emptiness that it
+symptomizes – a sign of progress?<br>
+● Technology intoxicates us with the feeling of being the controller. Just by
+pressing a switch, we can cause huge machines to perform complex actions.
+Just by clicking a key, we can summon information from any part of the
+world. By constantly working with machines, we become habituated to
+controlling them and expect everything and everyone to be similarly
+controlled. When people refuse to be controlled like machines, we end up
+with all sorts of relationship conflicts ranging from domestic cold wars to
+marital ruptures, from quarrels to murders. And in life when things don’t go
+the way we want them to, we end up suffering from a wide range of mental
+problems, from depression to addiction, from stress to suicide.<br>
+Technology – Ancient And Modern<br></p><p>
+Many of us may have been led to believe that we moderns possess the
+most advanced technology in the history of our planet. However, the
+pyramids in Egypt, the Stonehenge monoliths in the UK and the non-
+rusting iron pillars in India are some tell-tale products of an ancient
+technology that was amazingly superior to our modern technology. In fact,
+the Vedic texts describe even more intriguing technologies. Vimanas
+(pollution-free airplanes), brahmastras (precise and powerful missiles
+activated by mystical sound incantations) and astonishingly potent and
+swift healing by techniques involving medicinal herbs, empowered
+mantras and Ayurvedic surgeries are a few examples.<br>
+These examples of ancient technology show that the Vedic attitude is not
+opposed to technology per se. But it cautions us about infatuation with
+material technology leading to neglecting or forgetting the spiritual goal of
+life.<br></p><p>
+Imagine a doctor who prescribes only a painkiller to a seriously sick
+patient. The patient is happy because he gets relief. The doctor is happy
+because he gets his fees. Happy end of story, isn’t it? The problem is – the
+story doesn’t end there. The patient’s pain is not cured, but covered. Soon
+it will recur and worsen.<br>
+All of us are like the patient. From the moment of birth, we have a death
+sentence on our heads. Time forces us to helplessly grow old, get diseased
+and die. Our journey through life is not only doomed, but also distressful.
+Miseries from our own bodies and minds (e.g. fever, indigestion, stress,
+depression), miseries from other living beings (e.g. mosquitoes,
+competitors, superiors, relatives), and miseries from nature (e.g. extreme
+heat or cold, floods, earthquakes) periodically torment us throughout our
+life.<br></p><p>
+The Vedic texts explain the cause and cure of our suffering. We are
+spiritual beings entrapped in material bodies. We belong, not to this
+temporary and miserable material world, but to an eternal and blissful
+spiritual realm, where we live forever in loving harmony with God. Due to
+our desire to enjoy independent of God, we are placed in this world, which
+is an arena for experimentation and rectification. In this material world, we
+transmigrate through different species of life, searching for pleasure by
+experimenting with matter in various ways, but getting only misery and
+death. In the human species, we are given advanced human intelligence to
+recognize our unfortunate predicament. For such intelligent humans, the
+Vedic texts offer a systematic program of spirituality that enables them to
+re-harmonize with and return back to eternal life with God.<br>
+This spiritual program is based on recognizing our intermediate position in
+the cosmic hierarchy. As spiritual sparks we are superior to matter but
+subordinate to God, who is the controller of both matter and spirit. In our
+natural harmonious state in the spiritual world, we live in loving harmony
+with God and have nothing to do with matter. And when we are in the
+material world, the Vedic scriptures recommend that we focus on devotion
+and service to God – and take care of the body only as much as is required
+for it to serve as an efficient vehicle for our service to God and our
+spiritual journey back to Him.  This life of simple living and high thinking
+will permanently free us from our present entanglement in material
+miseries and help us to easily and swiftly re-achieve our rightful eternal
+happiness. Thus spirituality offers the real cure for our suffering. In this
+program for spiritual reclamation, material technologies were used mainly
+to assist in achieving the ultimate goal of life.<br>
+In our modern times, the human intelligence has been used primarily to
+develop materially – especially technologically. Technology gratifies our
+senses, inflates our ego and makes us feel comfortable and proud.
+However, technology provides entertainment, not peace; comforts, not
+happiness; medicines, not health; cosmetics, not youth; life support
+systems, not life. Thus, technology is like the painkiller that covers, but
+doesn’t cure, our suffering in material existence. Worse still, it creates an
+illusory sense of well-being, which makes people feel that a spiritual
+solution is unnecessary. Instead of simple living and high thinking, people
+start simply living and hardly thinking. Infatuated by promises of a hi-tech
+paradise, people don’t even think about the spiritual purpose of life,
+erroneously considering it to be unscientific and outdated. Thus,
+technology steals our opportunity to attain eternal life and condemns us to
+stay on and suffer in this world of birth and death.<br>
+Therefore, the basic difference between ancient technology and modern
+technology is that the former helped people to achieve the goal of life,
+while the latter causes people to forget the goal of life.  Great thinkers
+explains the regrettable direction of modern technological advancement:
+the intelligence that is meant for solving all problems permanently is
+misused to convert a castor oil lamp into an electric lamp.<br></p><p>
+ 
+Spiritualizing Modern Technology<br>
+A question may therefore arise, “Do we have to give up technology and
+return back to village life?”<br>
+We don’t have to give up technology; but we do have to give up the
+illusion that technology can make us happy. If we are diseased, we don’t
+have to give up the painkiller; but we do have to give up the illusion that
+the painkiller can cure our disease. We have to adopt the cure of
+spirituality for attaining real happiness.<br>
+And as the modern world is almost completely pervaded by technology,
+we can use the Vedic principle of yukta vairagya, devotional renunciation:
+without being attached to material things for personal enjoyment, use them
+for the service of God as required. Srila Prabhupada gives an analogy to
+explain the application of this principle with respect to technology.
+Suppose a gang of thieves have robbed a bank and are fleeing in a car at
+the speed of 80 kmph on a road with a speed limit of 40 kmph. What are
+the policemen chasing the thieves to do? Stick to the speed limit and let
+the thieves escape? Or break the speed limit, drive faster than the thieves,
+arrest them and retrieve the stolen wealth?<br>
+In our modern times, the wealth of spiritual knowledge of people is being
+stolen away by hi-tech propaganda of atheism, materialism, consumerism
+and hedonism. Therefore, it is incumbent on all genuine spiritual scientists
+to use the same technology to spread knowledge of spirituality and
+harmonious living and help people reclaim their wealth of spiritual
+wisdom and happiness. Thus, the   principle of yukta-vairagya enables us
+spiritualize modern technology, as can be seen in the following examples.
+ <br>
+</p><p>
+● Spiritual oranisations splendid temples equipped with state-of-the-art
+animatronics, robotics and multimedia theaters to kindle the interest of
+people in the message of the Bhagavad-Gita.<br>
+● Spiritual organisations are offering children a positive alternative
+comprising of devotionally-oriented toys, games and movies, which
+engender virtue and nobility, instead of the vice-producing media images of
+violence and sensuality.<br>
+● Many spiritual thinkers faculty members give presentations using slides
+shows, VCDs and other state-of-the-art technology. Even the article you are
+reading is an example of the yukta-vairagya principle in action.<br>
+This spiritual utilization of technology is attracting millions of people
+towards the service of God, and helping them to find inner fulfillment and
+achieve their right to eternal life and happiness.<br>
+But much more remains to be done, if we want to steer our planet out of
+the mess we have landed it into by our indiscriminate adoption of
+technology. For our modern times, there is need of East-West synthesis;
+spreading Indian spiritual wisdom with Western material technology. It
+can be compared to the coming together of Vedic spirituality and modern
+technology to the coming together of the proverbial blind man and the
+lame man. But for this synthesis to take place, the technologically
+advanced West has to recognize that it is lacking in spiritual vision. And
+the financially-crippled India has to shed its deeply-ingrained inferiority
+complex arising from material poverty and recognize its wealth of spiritual
+knowledge. If we acknowledge our respective endowments and
+deficiencies, we can become pioneers in bringing about an international
+spiritual revival. In our sadly misled modern world, this may be the only
+hope to usher in a new era of harmony and happiness. Are we ready?<br></p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /blog details -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Testimonials -->
+    <section class="section">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <h2 class="section-title">Our Testimonials</h2>
+      </div>
+    <div class="slider-1">
+        <img class="quotes-decoration" src="images/quotes.svg" alt="alternative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Card Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <p class="testimonial-text">“Learning DSA with voiceclub was a great experience for me. Our course Facilitator was very learned. He cleared all our doubts thoroughly. It was a great opportunity for me to learn DSA on such a minimal price, other wise it is very expensive to learn DSA on other platforms.”</p>
+                                    <div class="testimonial-author">Krishnakant Birajdar</div>
+                                    <div class="testimonial-position">Student- Latur</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“I have completed Python course organized by voiceclub. Quality teaching, daily evaluation, coverage of topics, etc. made me confident in Python without any programming background.”</p>
+                                    <div class="testimonial-author">Sneha Chakurkar</div>
+                                    <div class="testimonial-position">B.Tech SGGS Nanded</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“Python was my first programming language which I have learnt from voiceclub. The Teaching faculty is really experienced and working with top MNC like Google. They teach us from scratch to what's going on at industry level.”</p>
+                                    <div class="testimonial-author">Nitin Rasam</div>
+                                    <div class="testimonial-position">Service Engineer- Canon</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“There were expert faculties to guide us. They taught us how to apply engineering knowledge into practical life. voiceclub provided various designing assignments to do, so that we can understand the subject properly.”</p>
+                                    <div class="testimonial-author">Sairaj Deshmukh</div>
+                                    <div class="testimonial-position">NMIET, Pune(MH)</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“My reason for joining the DSA course of voiceclub was my amazing experience in voiceclub's Python course. In this DSA course, we were taught various DSA concepts by top faculties. They also made us ready for interviewby providing interview questions based on DSA. Thanks voiceclub for giving such an opportunity !!”</p>
+                                    <div class="testimonial-author">Gangaprasad S</div>
+                                    <div class="testimonial-position">Student, Nanded</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“I had recently completed DSA course arranged by, voiceclub. Daily tests and an weekly tests helped to revise concepts more easily. There were various projects which helped me to implement the concepts. Thanks voiceclub!!
+”</p>
+                                    <div class="testimonial-author">Rushikesh Girhe</div>
+                                    <div class="testimonial-position">SY Student, SGGS Nanded</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“Generally, if we join any course we get only limited things. In this course, along with Python, voiceclub arranged different motivational and inspiring seminars. I think only voiceclub can give this.”</p>
+                                    <div class="testimonial-author">Nilotpal Mukherjee</div>
+                                    <div class="testimonial-position">Student, West Bengal</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                            </div> <!-- end of swiper-wrapper -->
+        
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+        
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of card slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-1 -->
+  </div>
+</div>
+</section>
+    <!-- end of testimonials -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer 
+<footer>
+  newsletter 
+  <div class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+          <h3 class="text-white">Subscribe Now</h3>
+          <form action="#">
+            <div class="input-wrapper">
+              <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="Enter Your Email...">
+              <button type="submit" value="send" class="btn btn-primary">Join</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <!-- footer content 
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+           logo 
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo1.png" alt="logo"></a>
+          <ul class="list-unstyled">
+            <li class="mb-2">Address : 11/26, Ekta Park Society, Wakdewadi, Shivajinagar, Pune, Maharashtra, India 411005
+Email : admin@voiceclub.in</li>
+            
+            <li class="mb-2">admin@voiceclub.in</li>
+          </ul>
+        </div>
+         company 
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">voiceclub</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="about.html">About Us</a></li>
+            <li class="mb-3"><a class="text-color" href="teacher.html">Our Team</a></li>
+            <li class="mb-3"><a class="text-color" href="contact.html">Contact</a></li>
+            <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        links 
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">LINKS</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="courses.html">Courses</a></li>
+            <li class="mb-3"><a class="text-color" href="event.html">Events</a></li>
+            <li class="mb-3"><a class="text-color" href="gallery.html">Gallary</a></li>
+          </ul>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</footer>
+ /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+<script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+<script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+<script src="js/script.js"></script>
+<script src="js/script2.js"></script>
+
+</body>
+</html>

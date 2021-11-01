@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>voiceclub.in</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- preloader start -->
+  <div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+  </div>
+  <!-- preloader end -->
+
+<!-- header -->
+<header class="fixed-top header">
+  <!--top header 
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="callto:+443003030266"><strong>CALL</strong> +44 300 303 0266</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="notice.html">notice</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="research.html">research</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="scholarship.html">SCHOLARSHIP</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">login</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">register</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand" href="index.html"><img src="images/logo1.png" alt="logo"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item @@home">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                COURSES
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="personality.html">Personality Development Courses</a>
+                <a class="dropdown-item" href="tech.html">Technical Courses</a>
+              </div>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="events.html">EVENTS</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="blog.html">BLOG</a>
+            </li>
+            <li class="nav-item @@blog">
+              <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+            <!--
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="gallery.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Gallery
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="teacher.html">Teacher</a>
+                <a class="dropdown-item" href="teacher-single.html">Teacher Single</a>
+                <a class="dropdown-item" href="notice.html">Notice</a>
+                <a class="dropdown-item" href="notice-single.html">Notice Details</a>
+                <a class="dropdown-item" href="research.html">Research</a>
+                <a class="dropdown-item" href="scholarship.html">Scholarship</a>
+                <a class="dropdown-item" href="course-single.html">Course Details</a>
+                <a class="dropdown-item" href="event-single.html">Event Details</a>
+                <a class="dropdown-item" href="blog-single.html">Blog Details</a>
+              </div>
+            </li>-->
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="team.html">OUR TEAM</a>
+            </li>
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="blog_3.html">Science of Values</a></li>
+          <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+
+
+<!-- blog details -->
+<section class="section-sm bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <!--<img src="images/blog/blog_1.jpeg" alt="blog-thumb" class="img-fluid w-100">-->
+      </div>
+      <div class="col-12">
+        <ul class="list-inline">
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">Post:</span></li>
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">May 19, 2021</li>
+          <!--<li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><i class="ti-book mr-2"></i>Read 289</li>
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><i class="ti-share mr-2"></i>289</li>
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><a class="text-light" href="#"><i class="ti-comments mr-2"></i>265</a></li>
+        </ul>-->
+      </div>
+      <!-- border -->
+      <div class="col-12 mt-4">
+        <div class="border-bottom border-primary"></div>
+      </div>
+      <!-- blog contect -->
+      <div class="col-12 mb-5">
+        <h2>Science of Values</h2>
+        <p>Modern science operates on the principle of reductionism, that is, reducing
+all phenomena in the universe including human behavior, to the
+interactions of subatomic particles acting according to natural laws and
+impersonal forces.</p><p>
+Eminent scientists have expressed that this basic scientific methodology of
+reductionism is itself inadequate for understanding life in its completeness.
+Consider the statements of two Nobel Laureate Scientists:</p><p>
+1.  “I am very astonished that the scientific picture of the real world around
+me is very deficient. It gives a lot of factual information, puts all our
+experience in a magnificently consistent order, but it is ghastly silent about
+all and sundry that is really near to our heart, that really matters to us. It
+cannot tell us a word about red and blue, bitter and sweet, physical pain
+and physical delight; it knows nothing of beautiful and ugly, good or bad,
+God and eternity. Science sometimes pretends to answer questions in
+these domains, but the answers are very often so silly that we are not
+inclined to take them seriously.” -Physicist Erwin Schrodinger</p><p>
+2.  “I maintain that the human mystery is incredibly demeaned by scientific
+reductionism, with its claim in promissory materialism to account
+eventually for all the spiritual world in terms of patterns of neuronal
+activity. This belief must be classed as a superstition. … We have to
+recognize that we are spiritual beings with souls existing in a spiritual world
+as well as material beings with bodies and brains existing in a material
+world.” -Brain researcher John Eccles</p><p>
+         Consequences On Human
+Values</p><p>
+
+This incompleteness of the reductionistic approach has grave
+consequences on the entire worldview of modern human society; it is set
+to erode all that we cherish as humane and valuable.</p><p>
+1. Consider, for example, the following statements of two eminent scientists,
+one spiritually-minded and the other not:</p><p>
+
+“The most beautiful and most profound emotion we can experience is in
+the sensation of the mystical. It is a shower of all true science…. That
+deeply emotional conviction of the presence of a superior reasoning power
+which is revealed in the comprehensible universe forms my idea of
+God.” – Albert Einstein</p><p>
+“But now for many years I cannot endure to read a line of poetry: I have
+tried lately to read Shakespeare and found it so intolerably dull that it
+nauseated me. I have also almost lost my taste for pictures or music… The
+loss of these tastes is a loss of happiness , and may possibly be injurious to
+the intellect, and more probably to the moral character, by enfeebling the
+emotional part of our nature.” – Charles Darwin</p><p>
+1. Which fate do we want our children to meet?<br>
+ “Man may be able to program his own cells with synthetic information
+long before he’ll be able to access adequately the long-term consequences
+of such alterations, long before he’ll be able to formulate goals and long
+before he can resolve the ethical and moral problems which will be
+raised.” – Noble Laureate Geneticist Marshall Nirenberg</p><p>
+1. Indiscriminate scientific research in fields like genetic engineering and
+cloning is bound to raise far more problems than it can solve.
+ “The legal issue of ‘responsibility’ seems to imply that there is indeed,
+within each of us, some kind of an independent ‘self’ with its own
+responsibilities – and by implications, rights – whose actions are not
+attributable to inheritance, environment ,or chance.” –  Physicist Sir Roger
+Penrose</p><p>
+1. If we accept the scientific version that we are genetically programmed
+machines, then will we be ready to allow a cold-blooded murderer to go
+scot-free on the grounds that “murder is programmed in his genes”?
+ “We  may well reach the point in not too distant future where the parables
+and images of the old religions will have lost their persuasive force even
+for the average person; when that happens, I am afraid that all the old
+ethics will collapse like a house of cards and that unimaginable horrors
+will be perpetrated.”- Noble Laureate in Physics Wolfgang Pauli. Unless
+one has an understanding of God as the Supreme Controller, the call to
+ethics has no weight. After all, what is there in an atheist’s world view to
+impel him to stick to morality in his pursuit of pleasure? If a person does
+not understand his identity as an eternal soul, if he thinks that he can get
+away with whatever he does, provided he just does it cleverly enough, why
+will he not try to maximize the pleasure that this life can offer him? “Beg,
+borrow, steal, kill, but enjoy” becomes the life’s motto of a spiritually
+unprincipled person.</p><p>
+
+Paradigm Shift in Science</p><p>
+
+Due to these ominous trends, intellectual trend-setters worldwide have
+started questioning the validity and utility of indiscriminate scientific and
+technological “advancement.” What is the purpose of scientific research?
+Human happiness. But if that is not being achieved, has science erred? 
+Where? What can be done about it?</p><p>
+Maybe its time for science to set its priorities right as was recommended
+by Micheal Faraday centuries ago, “We ought to value the privilege of
+knowing God’s truth far beyond anything we can have in this world.”
+Science may add years to our life, but only spirituality will add life to our
+years. Without spirituality, we have no answers to fundamental questions
+of value, purpose and meaning – all of which are critical for satisfaction
+and fulfillment.</p><p>
+Moreover the reductionistic non-spiritual paradigm of modern science has
+not been proven, but presumed. This presumption was questioned by
+eminent scientist Louis Pasteur centuries ago “You pass from matter to life
+because your intelligence of today… cannot conceive things otherwise.
+How do you know that in ten thousand years one will not consider it more
+likely that matter has emerged from life?” Now in the light of devastating
+social ramifications, open-minded questioning has become vital for human
+happiness and even survival itself.</p><p>
+Science needs to harmonize itself with the supreme scientist God, as
+recommended by Albert Einstein, “I believe in God – who reveals himself
+in the orderly harmony of the Universe. I believe that intelligence is
+manifested throughout all Nature.  The basis of scientific work is the
+conviction that the world is an ordered and comprehensible entity and not
+a thing of Chance. When I sit here and watch the mighty ocean, I can
+imagine the treasures hidden below the bed of the sea, when I see the clear
+blue sky above, I feel sky is the limit.  When I cast my eyes around I see
+the wonders and beauties of Nature.  Science must learn to live in
+Harmony with all these magnificent gifts of God to Humanity.”</p><p>
+Vedic Value-Based Spirituality</p><p>
+“It is already becoming clear that a chapter which had a Western
+beginning will have to have an Indian ending if it is not to end in the self-
+destruction of the human race. At this supremely dangerous moment in
+history, the only way of salvation for mankind is the Indian Way.” This
+remark of Dr Arnold Toynbee (British Historian, 1889-1975) indicates that
+the best contribution of India to the world should not be in the form of
+software engineers, but in the form of spiritual engineers.</p><p>
+If we want intellectually satisfying spiritual alternatives to the materialistic
+worldview offered by reductionistic science, India is our best hope. Many
+Western thinkers have acknowledged the glory of Vedic spiritual wisdom.</p><p>
+1.  “In religion, India is the only millionaire……the one land that all men desire
+to see, and having seen once, by even a glimpse, would not give that
+glimpse for all the shows of all the rest of the globe combined.” -Mark
+Twain</p><p>
+2.  “Whenever I have read any part of the Vedas, I have felt that some
+unearthly and unknown light illuminated me. In the great teaching of the
+Vedas, there is no touch of sectarianism. It is of all ages, climbs, and
+nationalities and is the royal road for the attainment of the Great
+Knowledge.” –American Thinker Henry David Thoreau</p><p>
+3.  “The marvel of the Bhagavad-Gita is its truly beautiful revelation of  life’s
+wisdom which enables philosophy to blossom into religion.” -Herman
+Hesse (1877-1962), German poet and novelist, awarded the Nobel Prize for
+literature in 19.</p><p>
+4.  “Best of books – containing a wisdom blander and far more sane than that
+of the Hebrews, whether in the mind of Moses or of Him of Nazareth. Were
+I a preacher, I would venture sometimes to take from its texts the motto
+and moral of my discourse. It would be healthful and invigorating to
+breathe some of this mountain air into the lungs of Christendom.” -Amos
+Bronson Alcott (1799-1888) writer, philosopher, visionary.</p><p>
+5. “The message of the Gita is a universal call to Democracy, liberty for the
+peoples, liberty for each individual. The great affirmation of the Bhagavad
+Gita is that every individual, whatever he may be, rich or poor, can and
+must raise himself on life’s path and that he has a right to his
+emancipation, social, intellectual, and spiritual.” -Louis Revel, French author
+of The Fragrance of India: Landmarks for the world of tomorrow
+The glory of Vedic wisdom was seen in the caliber of its followers. When
+we become devoted to Supreme Intelligent, we become spiritual. This was
+the basis of the theistic Vedic social order. Moreover, another cardinal
+principle was: real human progress is measured not by the development of
+technological facilities, but by the development of spiritual qualities. The
+glorious social order as present in India (before its spiritual foundation was
+destroyed by the British imperial rule) was noted by British statesman
+Edmund Burke, “This multitude of men (the Indian nation) does not
+consist of an abject and barbarous populace, much less of gangs of
+savages; but of a people for ages civilized and cultivated; cultured by all
+the arts of polished life while we (Englishmen) were yet dwelling in the
+woods. There have been in (India) princes of great dignity, authority and
+opulence. There (in India) is to be found an ancient and venerable
+priesthood, the depositary of laws, learning and history, the guides of the
+people while living and their consolation in death. There is a nobility of
+great antiquity and renown; a multitude of cities not exceeded in
+population and trade by those of the first class in Europe; merchants and
+bankers who vie in capital with the banks of England; millions of
+ingenious manufacturers and mechanics; and millions of the most diligent
+tillers of the earth.”</p><p>
+Great leaders of vedic knowledge have stated that the foundation for real
+peace can be established only by spiritual wisdom, “Unless there is an
+awakening of divine consciousness in the individual, there is no use of
+crying for world peace.” We need not mistake genuine devotion to be the
+irrational religious fanaticism seen in some parts of the world today. It can
+be analysed that the failings of such so-called religion as follows,
+“Religion without philosophy is sentimentalism or sometimes fanaticism,
+Philosophy without religion is mental speculation.” If there is systematic
+philosophical education, then spirituality far from leading to fanaticism
+will lead to real harmony with nature and the master of nature.</p><p>
+India as a Global Spiritual Leader</p><p>
+The Swiss professor Dr. Richard Ernst –the 1999 Noble prize winner in
+chemistry – when projecting the impact of science in this millennium, took
+special note of India’s past and her present intellectual potential for
+shaping humanity’s future;
+India has a well developed academic community with a surplus of highly
+creative scientists, perhaps with a special indication towards the more
+theoretical aspects of science and still maintain a link to the Indian
+culture…</p><p>
+I am convinced that India could become once again the cradle of a new
+school of thought that may significantly influence the fate of the globe
+during the millennium. Perhaps the contribution of India to nuclear power
+technology and space science will turn out to be irrelevant, but the
+contribution towards a new ethical foundation could be turning the wheel
+of history in the proper (balanced) way.</p><p>
+Eminent thinkers throughout the world, including leading scientists such
+as Nobel Laureate Richard R. Ernst, peace workers such as Nobel
+Laureates Oscar Arias Sanchez and Betty Williams, and spiritualists such
+as Nobel Laureate the Dalai Lama, firmly believe that only a synthesis of
+science and spirituality can lead the world out of the present troubled
+times.</p><p>
+The youth of India have a unique position in the world. By virtue of birth
+in the holy land of India, they inherit the priceless wealth of spiritual
+knowledge expounded in the Vedic texts. And by virtue of their education
+and training, they have developed the scientific spirit of rational inquiry.
+Thus they are best suited to bring about the much-needed synthesis of
+science and spirituality that thinkers all over the world are searching for.
+The late Professor Arthur Ellison, a mechanical and electrical engineer,
+stated, “Surely the great and unique contribution that India has made and
+must continue to make to the world’s progress is in the field of religion–of
+truth and reality…. India can most certainly help the West to find the
+spiritual way back towards reality, which is essential for all real progress.”
+Unfortunately, most young Indians today are enamored by the razzle-
+dazzle of Western culture – blue jeans, supermarkets, Big Macs, Disney
+“fun,” rock music, Hollywood movies, and the like. But before embracing
+Western culture, wouldn’t it be worthwhile to study the condition of those
+who have lived with it their whole lives? Statistics show that in the U.S.A.
+a thousand teenagers attempt suicide every day. Seventy percent of all
+high-school seniors have attempted or seriously thought about suicide.
+</p><p>
+Thirty-three percent of American adults have serious mental health
+problems. Psychiatry and psychology are the most lucrative professions in
+America, and among all professionals, the highest suicide rate is found
+among psychiatrists and psychologists. Yet for most Indians, America is
+the land of their dreams. Saintly scholars would lament that modern
+Indians are sitting on jewels and begging for broken glass. Let the
+intelligent youth of India become selfless spiritual scientists dedicated to
+saving the world from its suicidal course. Let them, in the true spirit of
+science, study the theory of spirituality with all seriousness and at the same
+time perform the experiment of mantra meditation. Those who take up this
+challenge will become living spiritual scientists and will help usher in an
+era of peace, harmony, and understanding.
+</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /blog details -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Testimonials -->
+    <section class="section">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <h2 class="section-title">Our Testimonials</h2>
+      </div>
+    <div class="slider-1">
+        <img class="quotes-decoration" src="images/quotes.svg" alt="alternative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Card Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <p class="testimonial-text">“Learning DSA with voiceclub was a great experience for me. Our course Facilitator was very learned. He cleared all our doubts thoroughly. It was a great opportunity for me to learn DSA on such a minimal price, other wise it is very expensive to learn DSA on other platforms.”</p>
+                                    <div class="testimonial-author">Krishnakant Birajdar</div>
+                                    <div class="testimonial-position">Student- Latur</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“I have completed Python course organized by voiceclub. Quality teaching, daily evaluation, coverage of topics, etc. made me confident in Python without any programming background.”</p>
+                                    <div class="testimonial-author">Sneha Chakurkar</div>
+                                    <div class="testimonial-position">B.Tech SGGS Nanded</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“Python was my first programming language which I have learnt from voiceclub. The Teaching faculty is really experienced and working with top MNC like Google. They teach us from scratch to what's going on at industry level.”</p>
+                                    <div class="testimonial-author">Nitin Rasam</div>
+                                    <div class="testimonial-position">Service Engineer- Canon</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“There were expert faculties to guide us. They taught us how to apply engineering knowledge into practical life. voiceclub provided various designing assignments to do, so that we can understand the subject properly.”</p>
+                                    <div class="testimonial-author">Sairaj Deshmukh</div>
+                                    <div class="testimonial-position">NMIET, Pune(MH)</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“My reason for joining the DSA course of voiceclub was my amazing experience in voiceclub's Python course. In this DSA course, we were taught various DSA concepts by top faculties. They also made us ready for interviewby providing interview questions based on DSA. Thanks voiceclub for giving such an opportunity !!”</p>
+                                    <div class="testimonial-author">Gangaprasad S</div>
+                                    <div class="testimonial-position">Student, Nanded</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“I had recently completed DSA course arranged by, voiceclub. Daily tests and an weekly tests helped to revise concepts more easily. There were various projects which helped me to implement the concepts. Thanks voiceclub!!
+”</p>
+                                    <div class="testimonial-author">Rushikesh Girhe</div>
+                                    <div class="testimonial-position">SY Student, SGGS Nanded</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    
+                                    <p class="testimonial-text">“Generally, if we join any course we get only limited things. In this course, along with Python, voiceclub arranged different motivational and inspiring seminars. I think only voiceclub can give this.”</p>
+                                    <div class="testimonial-author">Nilotpal Mukherjee</div>
+                                    <div class="testimonial-position">Student, West Bengal</div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                            </div> <!-- end of swiper-wrapper -->
+        
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+        
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of card slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-1 -->
+  </div>
+</div>
+</section>
+    <!-- end of testimonials -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer 
+<footer>
+  newsletter 
+  <div class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+          <h3 class="text-white">Subscribe Now</h3>
+          <form action="#">
+            <div class="input-wrapper">
+              <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="Enter Your Email...">
+              <button type="submit" value="send" class="btn btn-primary">Join</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <!-- footer content 
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+           logo 
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo1.png" alt="logo"></a>
+          <ul class="list-unstyled">
+            <li class="mb-2">Address : 11/26, Ekta Park Society, Wakdewadi, Shivajinagar, Pune, Maharashtra, India 411005
+Email : admin@voiceclub.in</li>
+            
+            <li class="mb-2">admin@voiceclub.in</li>
+          </ul>
+        </div>
+         company 
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">voiceclub</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="about.html">About Us</a></li>
+            <li class="mb-3"><a class="text-color" href="teacher.html">Our Team</a></li>
+            <li class="mb-3"><a class="text-color" href="contact.html">Contact</a></li>
+            <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        links 
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">LINKS</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="courses.html">Courses</a></li>
+            <li class="mb-3"><a class="text-color" href="event.html">Events</a></li>
+            <li class="mb-3"><a class="text-color" href="gallery.html">Gallary</a></li>
+          </ul>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</footer>
+ /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+<script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+<script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+<script src="js/script.js"></script>
+<script src="js/script2.js"></script>
+
+</body>
+</html>
